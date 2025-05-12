@@ -1,5 +1,5 @@
 body {
-	background-color: antiquewhite;
+	background-color: burlywood;
 }
 
 h1.head {
@@ -17,4 +17,8 @@ ul {
 li {
 	display: flex;
 	margin-right: 20px;
+}
+
+label {
+	font-family: sans-serif;
 }
