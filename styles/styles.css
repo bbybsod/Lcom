@@ -1,7 +1,3 @@
-form {
-	align-content: center;
-}
-
 body {
 	background-color: antiquewhite;
 }
@@ -9,4 +5,16 @@ body {
 h1.head {
 	font-family: sans-serif;
 	color: green;
+}
+
+ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	justify-content: center;
+}
+
+li {
+	display: flex;
+	margin-right: 20px;
 }
