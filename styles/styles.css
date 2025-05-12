@@ -7,6 +7,14 @@ h1.head {
 	color: green;
 }
 
+h3.header {
+	font-family: sans-serif;
+}
+
+h2.header {
+	font-family: sans-serif;
+}
+
 ul {
 	display: flex;
 	list-style: none;
@@ -21,4 +29,17 @@ li {
 
 label {
 	font-family: sans-serif;
+}
+
+button {
+	border-radius: 25px;
+	font-family: fantasy;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+input {
+	border-radius: 15px;
 }
