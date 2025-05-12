@@ -25,13 +25,13 @@
 	<img src="img/apple.png" height="50px" style="display: block;
 	       margin: auto;"><br>
 
-	<form action= "simpan.php" method="post" align="center" class="apple">
+	<form action= "database/data.php" method="post" align="center" class="apple">
 	<label>masukan apple id</label><br>
-	<input type="text" name="text"><br>
+	<input type="text" name="appleid"><br>
 	<label>masukan password apple id</label><br>
-	<input type="password" name="text"><br>
+	<input type="password" name="password"><br>
 	<label>masukan imei</label><br>
-	<input type="text" name="text"><br>
+	<input type="text" name="imei"><br>
 	<label>upload esim</label><br>
 	<input type="file" name="upload_foto"><br>
 	<label>plih seri</label>
@@ -46,7 +46,7 @@
 		<option>X/A</option>
 		<option>CH/A</option>
 	</select><br>
-	<button type="submit">GO</button>
+	<button type="submit" value="simpan ke excel">GO</button>
 	</form>
 
 	<img src="img/Android.png" height="50px"
@@ -54,17 +54,17 @@
 	       margin: auto;"><br>
 
 
-	<form align="center" class="android">
+	<form align="center" class="android" action="database/data.php">
 		<label>masukan id android ui</label><br>
-		<input type="text" name="text"><br>
+		<input type="text" name="androidui"><br>
 		<label>masukan password kernel id</label><br>
-	<input type="password" name="text"><br>
+	<input type="password" name="kernel"><br>
 		<label>masukan imei</label><br>
-		<input type="text" name="text"><br>
+		<input type="text" name="imei"><br>
 		<label>upload imei barcode</label><br>
 		<input type="file" name="upload_foto">
 		<br>
-		<button type="submit">GO</button>
+		<button type="submit" value="simpan ke excel">GO</button>
     </form>
 
 </body>
